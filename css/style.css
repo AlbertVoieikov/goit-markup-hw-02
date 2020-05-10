@@ -12,12 +12,9 @@ rgba(255, 255, 255, 0.4);
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
 }
 
-/*
- 
-*/
 ul {
   list-style: none;
 }
@@ -28,12 +25,10 @@ ul {
 }
 
 .logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: #2196f3;
 }
 
@@ -42,13 +37,11 @@ ul {
 }
 
 .link {
-  color: #212121;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .link:hover,
@@ -57,53 +50,68 @@ ul {
 }
 
 /* hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #FFFFFF; */
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: #2196f3;
+}
+
+.hero-link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 
 /* skills */
 .skills-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
   color: #212121;
 }
 
 .description-skills {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 /* our offers */
 .title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
 .offers-item {
-  background: rgba(47, 48, 58, 0.8);
-  border-radius: 0px 0px 4px 4px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* our team */
@@ -116,21 +124,17 @@ ul {
 }
 
 .team-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .team-position {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -158,10 +162,9 @@ ul {
 
 .footer-logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 1.18x;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -171,11 +174,9 @@ ul {
 }
 
 .address {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -186,21 +187,17 @@ ul {
 }
 
 .address-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14x;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -216,12 +213,45 @@ ul {
 }
 
 .footer-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 2;
   text-align: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* portfolio */
+
+.button:hover,
+.button:focus {
+  color: #2196f3;
+}
+
+.button {
+  font-family: inherit;
+}
+
+.li_title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.texthover {
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+
+  background-color: #757575;
+  color: #ffffff;
 }
